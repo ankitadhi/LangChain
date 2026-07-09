@@ -327,9 +327,9 @@ LANGCHAIN_API_KEY=your_key
 # 🚀 Progress
 
 - [x] LangChain Basics
-- [x] Prompt Templates
-- [x] Models
-- [x] Output Parsers
+- [ ] Prompt Templates
+- [ ] Models
+- [ ] Output Parsers
 - [ ] Chains
 - [ ] Memory
 - [ ] Document Loaders
