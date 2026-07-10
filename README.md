@@ -278,7 +278,7 @@ LangChain-Learning/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/langchain-learning.git
+git clone https://github.com/ankitadhi/langchain-learning.git
 ```
 
 Navigate to the project
@@ -334,7 +334,7 @@ LANGCHAIN_API_KEY=your_key
 - [ ] Memory
 - [ ] Document Loaders
 - [ ] Text Splitters
-- [ ] Embeddings
+- [x] Embeddings
 - [ ] Vector Databases
 - [ ] Retrieval
 - [ ] RAG
