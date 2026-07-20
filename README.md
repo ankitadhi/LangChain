@@ -229,26 +229,27 @@ Examples include:
 ```
 LangChain-Learning/
 │
-├── 01_Basics/
-├── 02_Models/
-├── 03_Prompts/
-├── 04_Output_Parsers/
-├── 05_Chains/
-├── 06_Memory/
-├── 07_Document_Loaders/
-├── 08_Text_Splitters/
-├── 09_Embeddings/
-├── 10_Vector_Databases/
-├── 11_Retrievers/
-├── 12_RAG/
-├── 13_Agents/
-├── 14_Tools/
-├── 15_LangSmith/
-├── 16_LangServe/
-├── 17_Projects/
+├── ChatModels/
+├── EmbeddingModels/
+├── LLMs/
+├── OutputParsers/
+├── Prompts/
+├── StructuredOutputs/
+├── Document_Loaders/
+├── Text_Splitters/
+├── Vector_Databases/
+├── Retrievers/
+├── RAG/
+├── Agents/
+├── Tools/
+├── LangSmith/
+├── LangServe/
+├── Projects/
 ├── notebooks/
 ├── assets/
 ├── requirements.txt
+|   .gitignore
+│  first.py
 └── README.md
 ```
 
