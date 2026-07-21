@@ -227,7 +227,7 @@ Examples include:
 # 📂 Repository Structure
 
 ```
-LangChain-Learning/
+LangChain/
 │
 ├── ChatModels/
 ├── EmbeddingModels/
@@ -235,6 +235,7 @@ LangChain-Learning/
 ├── OutputParsers/
 ├── Prompts/
 ├── StructuredOutputs/
+├── Chains
 ├── Document_Loaders/
 ├── Text_Splitters/
 ├── Vector_Databases/
@@ -248,8 +249,9 @@ LangChain-Learning/
 ├── notebooks/
 ├── assets/
 ├── requirements.txt
-|   .gitignore
-│  first.py
+├── .gitignore
+├── first.py
+├── main.py
 └── README.md
 ```
 
@@ -279,7 +281,7 @@ LangChain-Learning/
 Clone the repository
 
 ```bash
-git clone https://github.com/ankitadhi/langchain-learning.git
+git clone https://github.com/ankitadhi/langchain.git
 ```
 
 Navigate to the project
@@ -328,9 +330,9 @@ LANGCHAIN_API_KEY=your_key
 # 🚀 Progress
 
 - [x] LangChain Basics
-- [ ] Prompt Templates
-- [ ] Models
-- [ ] Output Parsers
+- [x] Prompt Templates
+- [x] Models
+- [x] Output Parsers
 - [ ] Chains
 - [ ] Memory
 - [ ] Document Loaders
