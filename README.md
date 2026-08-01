@@ -333,7 +333,7 @@ LANGCHAIN_API_KEY=your_key
 - [x] Prompt Templates
 - [x] Models
 - [x] Output Parsers
-- [ ] Chains
+- [x] Chains
 - [ ] Memory
 - [ ] Document Loaders
 - [ ] Text Splitters
