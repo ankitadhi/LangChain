@@ -3,3 +3,8 @@ env
 venv/
 dist/
 build/
+
+chromadb/
+IPL_chromadb/
+__pycache__/
+*.log

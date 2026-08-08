@@ -1,7 +1,7 @@
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.vectorstoresVectorStore, 
+from langchain_community.vectorstores import FAISS 
 from langchain_community.document_loaders import TextLoader
 load_dotenv()
 
@@ -24,7 +24,7 @@ embeddings = GoogleGenerativeAIEmbeddings(
     )
 
 
-vector_store = VectorStore.from_documents(chunks, embeddings)
+vector_store = FAISS.from_documents(chunks, embeddings)
 
 query = "What is the main topic of the document?"
 
